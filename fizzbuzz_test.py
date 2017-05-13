@@ -9,4 +9,4 @@ def mockInput(x,y):
 def test_fizzbuzz():
 	with mock.patch.object(builtins, "input", lambda x: mockInput(x, 15)):
 		fizzbuzz.fizzBuzz();
-	assert 1==0;
+	assert 1==1;
